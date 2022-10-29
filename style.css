@@ -1,0 +1,65 @@
+@import url('https://v1.fontapi.ir/css/Vazir');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css');
+
+body {
+  font-size: 30px;
+  font-family: 'Vazir', sans-serif;
+  direction: rtl;
+  background-color: rgb(3, 24, 34);
+}
+
+#app {
+  max-width: 980px;
+  margin: auto;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.container {
+  background: rgb(247, 247, 247);
+  border-radius: 8px;
+  max-width: 350px;
+  padding: 20px;
+  text-align: right;
+  margin: 50px auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.8rem;
+  border-bottom: 1px solid rgb(236, 236, 236);
+  padding-bottom: 10px;
+}
+
+form input {
+  border-radius: 8px;
+}
+
+button {
+  border-radius: 8px;
+  margin-top: 50px;
+}
+
+p#result {
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+
+p#result:empty {
+  display: none;
+}
+
+label {
+  font-size: 24px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    position: absolute;
+    margin: auto;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  } 
+}
